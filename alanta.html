@@ -19,8 +19,7 @@
 </head>
 
 <script>
-    function closePopupNewsletter() 
-    {
+    function closePopupNewsletter() {
         document.getElementById("popup-newsletter-id").style.display = "none";
     }
 </script>
@@ -51,19 +50,24 @@
             </div>
         </div>
     </div>
+
     <header>
         <div class="top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="top-bar-left mr-auto">
-                        <a href=""><i class="fa fa-volume-control-phone" aria-hidden="true"></i> CALL US: 00-1234 5678
+                    <div class="top-bar-left">
+                        <a href="">
+                            <img src="images/icon-phone.png" alt="">
+                            <span>
+                                CALL US: 00-1234 5678
+                            </span>
                         </a>
                     </div>
-                    <div class="row top-bar-right" style="margin: 0">
+                    <div class="top-bar-right ml-auto">
                         <div class="login">
                             <a href="">LOGIN</a>
                         </div>
-                        <div class="login ">
+                        <div class="login eng">
                             <a href="">ENG</a>
                             <div class="lst-eng">
                                 <div class="hr-eng">
@@ -88,8 +92,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="login">
-                            <a href="">USD</a>
+                        <div class="login usd">
+                            <a href="" style="padding-right: 0px">USD</a>
                             <div class="lst-eng">
                                 <div class="hr-eng">
                                     <div class="eng-down">
@@ -118,15 +122,16 @@
             </div>
         </div>
 
-        <div class="top-header">
+        <div class="top-header" style="margin-top: 22px">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-3">
+                    <div class="col-12 col-sm-3 menu_1">
                         <div class="logo">
                             <img src="images/logo.png" alt="img-fluid">
                         </div>
                     </div>
-                    <div class="col-6 col-sm-6 ">
+                    <div class="col-6 col-sm-6 " style="display: flex;
+                    justify-content: center;">
                         <nav class="navbar navbar-expand-lg navbar-light " style="padding: 20px 0">
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -142,8 +147,8 @@
                                                 <div class="menu-girl">
                                                     <div class="top">
                                                         <ul>
-                                                            <div>
-                                                                TOP
+                                                            <div class="name-top">
+                                                                <span>TOP</span>
                                                             </div>
                                                             <li>
                                                                 <a href="">
@@ -179,8 +184,8 @@
                                                     </div>
                                                     <div class="mid">
                                                         <ul>
-                                                            <div>
-                                                                BOTTOMS
+                                                            <div class="name-top">
+                                                                <span>BOTTOMS</span>
                                                             </div>
                                                             <li>
                                                                 <a href="">
@@ -216,8 +221,8 @@
                                                     </div>
                                                     <div class="bottom">
                                                         <ul>
-                                                            <div>
-                                                                DRESSES
+                                                            <div class="name-top">
+                                                                <span>DRESSES</span>
                                                             </div>
                                                             <li>
                                                                 <a href="">
@@ -257,12 +262,14 @@
                                                     <img class="img-fluid" src="images/menu-women.png" alt="">
                                                     <div class="info-girl">
                                                         <div class="new-trend">
-                                                            NEW TRENDING
+                                                            <span>
+                                                                NEW TRENDING
+                                                            </span>
                                                         </div>
                                                         <div class="sale-girl">
-                                                            <b>
+                                                            <span>
                                                                 SALE OFF 50%
-                                                            </b>
+                                                            </span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -277,9 +284,10 @@
                                                 <div class="menu-men">
                                                     <div class="top">
                                                         <ul>
-                                                            <div>
-                                                                <a href="">
+                                                            <div class="name-men">
+                                                                <span>
                                                                     TOP
+                                                                </span>
                                                             </div>
                                                             <li>
                                                                 <a href="">
@@ -325,9 +333,10 @@
                                                     </div>
                                                     <div class="bottom">
                                                         <ul>
-                                                            <div>
-                                                                <a href="">
-                                                                    BOTTOM
+                                                            <div class="name-men">
+                                                                <span>
+                                                                    BOTTOMS
+                                                                </span>
                                                             </div>
                                                             <li>
                                                                 <a href="">
@@ -378,10 +387,14 @@
                                                     <img class="img-fluid" src="images/menu-men.png" alt="">
                                                     <div class="info-men">
                                                         <div class="new-trend">
-                                                            NEW TRENDING
+                                                            <span>
+                                                                NEW TRENDING
+                                                            </span>
                                                         </div>
                                                         <div class="sale-men">
-                                                            SALE OFF 50%
+                                                            <span>
+                                                                SALE OFF 50%
+                                                            </span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -427,10 +440,16 @@
                                                 <a href="" title="">Search Page</a>
                                             </li>
                                             <li>
+                                                <a href="" title="">Compare Page</a>
+                                            </li>
+                                            <li>
                                                 <a href="" title="">Offline Page</a>
                                             </li>
                                             <li>
-                                                <a href="" title="">Our Office</a>
+                                                <a href="" title="">Offline Page</a>
+                                            </li>
+                                            <li>
+                                                <a href="" title="">404 Page</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -440,7 +459,7 @@
                             </div>
                         </nav>
                     </div>
-                    <div class="col-6 col-sm-3">
+                    <div class="col-6 col-sm-3" style="padding: 0;">
                         <div class="menu-left">
                             <div class="icon-search">
                                 <a href=""><i class="fa fa-search" aria-hidden="true"></i>
@@ -453,7 +472,10 @@
                                 </div>
                             </div>
                             <div class="box-money">
-                                <div class="money">$109</div>
+                                <div class="money"><span>
+                                        $109.00
+                                    </span>
+                                </div>
                                 <img class="img-cart" src="images/cart.png" alt="">
                                 <div class="down-cart">
                                     <div class="content-cart">
@@ -509,9 +531,10 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="number-cart text-center">
-                                    2
+                                    <span>
+                                        2
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -520,9 +543,9 @@
             </div>
         </div>
         </div>
-    </header>
-    <main>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel"
+            style="margin-top: 16px;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/home01.png" class="d-block w-100" alt="...">
@@ -533,7 +556,7 @@
                         </h4>
                         <h1><b>HOT & TRENDY CLOTHING</b></h1>
                         <p>INTRODUCING THE LATEST CLOTHES IN OUR COLLECTION</p>
-                        <a href="#" class="btn ">SHOP NOW</a>
+                        <a href="#" class="show-now ">SHOP NOW</a>
                     </div>
                 </div>
                 <div class="carousel-item ">
@@ -541,11 +564,11 @@
                     <div class="shadow-slide"></div>
                     <div class="wrap-caption-2">
                         <h4>
-                            The For Collection
+                            Collection For Women
                         </h4>
                         <h1>HOT & TRENDY CLOTHING</h1>
                         <p>INTRODUCING THE LATEST CLOTHES IN OUR COLLECTION</p>
-                        <a href="#" class="btn ">SHOP NOW</a>
+                        <a href="#" class="show-now ">SHOP NOW</a>
                     </div>
                 </div>
             </div>
@@ -558,53 +581,53 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
-        <div class="mt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12 box-service">
-                        <div class="lst-service text-center">
-                            <a href="">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                            </a>
-                            <h4>
-                                Free Shipping Worldwide
-                            </h4>
-                        </div>
+    </header>
+    <main>
+        <div class="container" style="margin-top: 120px;">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 box-service">
+                    <div class="lst-service text-center">
+                        <a href="">
+                            <i class="fa fa-plane" aria-hidden="true"></i>
+                        </a>
+                        <h4>
+                            Free Shipping Worldwide
+                        </h4>
                     </div>
-                    <div class="col-md-4 col-sm-12 box-service ">
-                        <div class="lst-service text-center">
-                            <a href="">
-                                <i class="fa fa-reply" aria-hidden="true"></i>
-                            </a>
-                            <h4>
-                                Free Return Exchange
-                            </h4>
-                        </div>
+                </div>
+                <div class="col-md-4 col-sm-12 box-service ">
+                    <div class="lst-service text-center">
+                        <a href="">
+                            <i class="fa fa-reply" aria-hidden="true"></i>
+                        </a>
+                        <h4>
+                            Free Return Exchange
+                        </h4>
                     </div>
-                    <div class="col-md-4 col-sm-12 box-service ">
-                        <div class="lst-service text-center">
-                            <a href="">
-                                <i class="fa fa-life-ring" aria-hidden="true"></i>
-                            </a>
-                            <h4>
-                                Quality Support By 24/7
-                            </h4>
-                        </div>
+                </div>
+                <div class="col-md-4 col-sm-12 box-service ">
+                    <div class="lst-service text-center">
+                        <a href="">
+                            <i class="fa fa-life-ring" aria-hidden="true"></i>
+                        </a>
+                        <h4>
+                            Quality Support By
+                        </h4>
                     </div>
                 </div>
             </div>
         </div>
         <!-- ----ARRIVALS--- -->
-        <div class="container mt-5">
+
+        <div class="container " style="margin-top: 55px;">
             <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    <h2 class="text-center" style="letter-spacing:4px;">
+                <div class="col-sm-12 col-md-12 box-ent">
+                    <h2 class="text-center">
                         NEW ARRIVALS
                     </h2>
-                    <div class="text-center" style="font-display:futura-std;">
+                    <span class="text-center">
                         Updated every day with new styles, shop all our latest arrivals
-                    </div>
+                    </span>
                 </div>
             </div>
         </div>
@@ -619,7 +642,7 @@
                         <p>
                             $129.00
                         </p>
-                        <a href="#" class="btn ">ADD TO CART</a>
+                        <a href="#" class="add-cart-arr ">ADD TO CART</a>
                     </div>
                 </div>
                 <div class="carousel-cell lst-arr">
@@ -631,7 +654,7 @@
                         <p>
                             $129.00
                         </p>
-                        <a href="#" class="btn ">ADD TO CART</a>
+                        <a href="#" class="add-cart-arr">ADD TO CART</a>
                     </div>
                 </div>
                 <div class="carousel-cell lst-arr">
@@ -647,7 +670,7 @@
                         <p>
                             <strike>$135.00</strike> &nbsp; $117.00
                         </p>
-                        <a href="#" class="btn ">ADD TO CART</a>
+                        <a href="#" class="add-cart-arr">ADD TO CART</a>
                     </div>
                 </div>
                 <div class="carousel-cell lst-arr">
@@ -662,7 +685,7 @@
                         <p>
                             $129.00
                         </p>
-                        <a href="#" class="btn ">ADD TO CART</a>
+                        <a href="#" class="add-cart-arr">ADD TO CART</a>
                     </div>
                 </div>
                 <div class="carousel-cell lst-arr">
@@ -672,7 +695,7 @@
                         <p>
                             $129.00
                         </p>
-                        <a href="#" class="btn ">ADD TO CART</a>
+                        <a href="#" class="add-cart-arr">ADD TO CART</a>
                     </div>
                 </div>
                 <div class="carousel-cell lst-arr">
@@ -687,7 +710,7 @@
                         <p>
                             <strike>$135.00</strike> &nbsp; $117.00
                         </p>
-                        <a href="#" class="btn ">ADD TO CART</a>
+                        <a href="#" class="add-cart-arr">ADD TO CART</a>
                     </div>
                 </div>
 
@@ -703,43 +726,52 @@
                         <p>
                             $129.00
                         </p>
-                        <a href="#" class="btn ">ADD TO CART</a>
+                        <a href="#" class="add-cart-arr">ADD TO CART</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- collection -->
-        <div class="box-collection mt-5">
-            <div class="container">
-                <div class="row">
+        <div class="box-collection" style="margin-top: 80px">
+            <div class="container" style="padding: 0px;">
+                <div class="row can">
                     <div class="col-12 col-sm-4 lst-collection">
-
-                        <img class="img-fluid" src="images/collection_1.png" alt="">
-                        <div class="content-cl text-center">
-                            WOMEN’S COLLECTION
+                        <div class="photo-colection">
+                            <img class="img-fluid" src="images/collection_1.png" alt="">
                         </div>
 
-                    </div>
-                    <div class="col-12 col-sm-4 lst-collection">
-
-                        <img class="img-fluid" src="images/collection_2.png" alt="">
                         <div class="content-cl text-center">
-                            ACCESSORIES
+                            <span>
+                                WOMEN’S COLLECTION
+                            </span>
                         </div>
-
                     </div>
                     <div class="col-12 col-sm-4 lst-collection">
-                        <img class="img-fluid" src="images/collection_3.png" alt="">
+                        <div class="photo-colection">
+                            <img class="img-fluid" src="images/collection_2.png" alt="">
+                        </div>
                         <div class="content-cl text-center">
-                            MEN’S COLLECTION
+                            <span>
+                                ACCESSORIES
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 lst-collection">
+                        <div class="photo-colection">
+                            <img class="img-fluid" src="images/collection_3.png" alt="">
+                        </div>
+                        <div class="content-cl text-center">
+                            <span>
+                                MEN’S COLLECTION
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- trend -->
-        <div class="mt-5 box-trend">
+        <div class="box-trend" style="margin-top: 150px;">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-3 col-md-3 lst-trend">
@@ -762,35 +794,36 @@
                 </div>
             </div>
         </div>
+
         <!-- products -->
-        <div class="container mt-5">
+        <div class="container" style="margin-top:105px;">
             <div class="row">
-                <div class="col-sm-12 col-md-12">
+                <div class="col-sm-12 col-md-12 box-ent">
                     <h2 class="text-center">
                         FEATURED PRODUCTS
                     </h2>
-                    <div class="separator-section text-center">
-                        Our collection, styled our way, hover on a look you like to shop the items featured
+                    <div class="text-center">
+                        <span>
+                            Our collection, styled our way, hover on a look you like to shop the items featured
+                        </span>
                     </div>
                 </div>
             </div>
-            <div class="row mt-5 ">
+            <div class="row" style="margin-top: 14px;">
                 <div class="col-sm-12 col-md-12 box-product">
                     <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item" style="padding: 10px;">
-                            <a class="nav-link show active" style="color:black; background-color: white;"
-                                id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-                                aria-controls="pills-contact" aria-selected="true">WOMEN</a>
+                            <a class="nav-link show active" id="pills-contact-tab" data-toggle="pill"
+                                href="#pills-contact" role="tab" aria-controls="pills-contact"
+                                aria-selected="true">WOMEN</a>
                         </li>
                         <li class="nav-item" style="padding: 10px;">
-                            <a class="nav-link show" style="color:black; background-color: white;"
-                                id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-                                aria-controls="pills-profile" aria-selected="false">MEN</a>
+                            <a class="nav-link show" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                                role="tab" aria-controls="pills-profile" aria-selected="false">MEN</a>
                         </li>
                         <li class="nav-item" style="padding: 10px;">
-                            <a class="nav-link show" style="color:black; background-color: white;" id="pills-home-tab"
-                                data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
-                                aria-selected="false">ACCESSORIES</a>
+                            <a class="nav-link show" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                role="tab" aria-controls="pills-home" aria-selected="false">ACCESSORIES</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
@@ -809,10 +842,9 @@
                                         <p>
                                             $129.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
-
+                                        <a href="#" class="add-cart">
+                                            ADD TO CART</a>
                                     </div>
-
                                 </div>
                                 <div class="col-lg-3 col-sm-6 col-12 img-product">
                                     <div class="product-1 product">
@@ -829,7 +861,7 @@
                                         <p>
                                             $105.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
+                                        <a href="#" class="add-cart">ADD TO CART</a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6 col-12  img-product">
@@ -844,7 +876,7 @@
                                         <p>
                                             $117.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
+                                        <a href="#" class="add-cart ">ADD TO CART</a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6 col-12  img-product">
@@ -859,7 +891,7 @@
                                         <p>
                                             $130.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
+                                        <a href="#" class="add-cart ">ADD TO CART</a>
                                     </div>
                                 </div>
                             </div>
@@ -880,7 +912,7 @@
                                         <p>
                                             $130.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
+                                        <a href="#" class="add-cart ">ADD TO CART</a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6 col-12  img-product">
@@ -895,7 +927,7 @@
                                         <p>
                                             $129.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
+                                        <a href="#" class="add-cart ">ADD TO CART</a>
 
                                     </div>
 
@@ -915,7 +947,7 @@
                                         <p>
                                             $105.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
+                                        <a href="#" class="add-cart ">ADD TO CART</a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6 col-12  img-product">
@@ -930,7 +962,7 @@
                                         <p>
                                             $117.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
+                                        <a href="#" class="add-cart ">ADD TO CART</a>
                                     </div>
                                 </div>
 
@@ -952,7 +984,7 @@
                                         <p>
                                             $117.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
+                                        <a href="#" class="add-cart ">ADD TO CART</a>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6  col-12 img-product">
@@ -967,10 +999,8 @@
                                         <p>
                                             $129.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
-
+                                        <a href="#" class="add-cart ">ADD TO CART</a>
                                     </div>
-
                                 </div>
                                 <div class="col-lg-3 col-sm-6 col-12  img-product">
                                     <div class="product-1 product">
@@ -989,10 +1019,9 @@
                                         <p>
                                             $105.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
+                                        <a href="#" class="add-cart ">ADD TO CART</a>
                                     </div>
                                 </div>
-
                                 <div class="col-lg-3 col-sm-6 col-12 img-product">
                                     <div class="product-1 product">
                                         <div class="img-product-2">
@@ -1005,7 +1034,7 @@
                                         <p>
                                             $130.00
                                         </p>
-                                        <a href="#" class="btn ">ADD TO CART</a>
+                                        <a href="#" class="add-cart ">ADD TO CART</a>
                                     </div>
                                 </div>
                             </div>
@@ -1014,7 +1043,7 @@
                 </div>
             </div>
         </div>
-        <div class="blog mt-5 ">
+        <div class="blog" style="margin-top:13px;">
             <div class="container">
                 <div class="row">
                     <div class="col-12  col-sm-4 lst-blog">
@@ -1029,7 +1058,7 @@
                             <span>
                                 Feb 22, 2017 &emsp;
                             </span>
-                            <i class="fa fa-comments-o" aria-hidden="true"></i>
+                            <i class="fa fa-comment-o" aria-hidden="true"></i>
                             <span>
                                 0 Comment(s)
                             </span>
@@ -1047,7 +1076,7 @@
                             <span>
                                 Feb 22, 2017 &emsp;
                             </span>
-                            <i class="fa fa-comments-o" aria-hidden="true"></i>
+                            <i class="fa fa-comment-o" aria-hidden="true"></i>
                             <span>
                                 0 Comment(s)
                             </span>
@@ -1065,7 +1094,7 @@
                             <span>
                                 Feb 22, 2017 &emsp;
                             </span>
-                            <i class="fa fa-comments-o" aria-hidden="true"></i>
+                            <i class="fa fa-comment-o" aria-hidden="true"></i>
                             <span>
                                 0 Comment(s)
                             </span>
@@ -1073,8 +1102,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container mt-5 mb-5">
+        </div> -->
+        <div class="container" style="margin-top: 55px;">
             <div class="row">
                 <div class="col-sm-6 col-md-2 lst-brand text-center">
                     <img src="images/brand1.png" alt="">
@@ -1098,15 +1127,15 @@
         </div>
     </main>
     <footer>
-        <div class="box-footer">
+        <div class="box-footer" style="margin-top:50px">
             <div class="container">
-                <div class="footer-top">
+                <div class="footer-top" style=" margin-bottom: 30px;">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-8 footer-left">
                             <div class="row">
-                                <div class="col-12 col-sm-12 col-md-4 footer-info">
+                                <div class="col-12 col-sm-12 col-md-4 footer-info footer-info-1">
                                     <h3>MY ACCOUNT</h3>
-                                    <ul class="lst-info mt-4">
+                                    <ul class="lst-info">
                                         <li><a href="">My History</a></li>
                                         <li><a href="">My Orders</a></li>
                                         <li><a href="">My Address</a></li>
@@ -1117,7 +1146,7 @@
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-4 footer-info">
                                     <h3>INFORMATION</h3>
-                                    <ul class="lst-info mt-4">
+                                    <ul class="lst-info">
                                         <li><a href="">Term Of Use </a></li>
                                         <li><a href="">Search Terms</a></li>
                                         <li><a href="">Shipping Guide</a></li>
@@ -1128,7 +1157,7 @@
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-4 footer-info">
                                     <h3>USEFUL LINK</h3>
-                                    <ul class="lst-info mt-4">
+                                    <ul class="lst-info">
                                         <li><a href="">Contact Us </a></li>
                                         <li><a href="">Promotions</a></li>
                                         <li><a href="">Fast Delivery</a></li>
@@ -1162,7 +1191,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-bottom mt-5">
+                <div class="footer-bottom">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-3 col-lg-3 bottom-first mb-3">
                             <ul class="row lst-icon-first">
@@ -1202,7 +1231,8 @@
         </div>
         <div class="last-footer">
             <div class="info-last-footer">
-                <span>2017 All rights reserved. Design by&nbsp; </span>
+                <i class="fa fa-copyright" aria-hidden="true"></i>
+                <span>2017 All rights reserved. Design by&nbsp; </span>
                 <span>
                     <a href="">
                         Joommasters.com
