@@ -140,6 +140,13 @@
     .img-arr .status-new {
         font-size: 10px;
     }
+    .flickity-prev-next-button {
+        top: 32%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 @media (max-width: 576px) {
@@ -184,6 +191,7 @@
     .img-arr .status-new {
         font-size: 7px;
     }
+
 }
 
 

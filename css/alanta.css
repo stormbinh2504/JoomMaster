@@ -68,7 +68,7 @@ footer .container {
 .popup-newsletter {
     display: block;
     position: fixed;
-    z-index: 10;
+    z-index: 11;
     left: 0;
     top: 0;
     width: 100%;
